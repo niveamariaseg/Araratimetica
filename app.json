@@ -1,1 +1,17 @@
-{"expo":{"name":"Cálculo em Missões","slug":"calculo-em-missoes","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","icon":"./assets/icon.png","assetBundlePatterns":["**/*"]}}
+{
+  "expo": {
+    "name": "Cálculo em Missões",
+    "slug": "calculo-em-missoes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-status-bar",
+      "expo-font"
+    ]
+  }
+}
