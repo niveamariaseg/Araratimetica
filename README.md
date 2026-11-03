@@ -15,7 +15,7 @@ Abra pelo app **Expo Go** no celular (escaneie o QR code) ou pressione `w` para 
 
 > Atenção: salve os arquivos `.json` em UTF-8 **sem BOM**. O `Set-Content`/`Out-File` do Windows PowerShell 5 adiciona um BOM, e isso quebra o `npx expo start` com o erro "Unexpected token ... is not valid JSON".
 
-## Telas (baseadas no `Frame 9.pdf`)
+## Telas (baseadas no `Wireframes.pdf`)
 
 | Wireframe | Arquivo | O que faz |
 |---|---|---|
