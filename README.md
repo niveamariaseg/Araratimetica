@@ -1,19 +1,17 @@
 # Cálculo em Missões
 
-Esboço navegável (React Native + Expo SDK 58) de um app gamificado de matemática para Introdução ao Cálculo (TADS / UDESC).
+Esboço navegável (React Native + Expo) de um app gamificado de matemática para Introdução ao Cálculo (TADS / UDESC).
 
 ## Executar
 
-Com Node.js 24 LTS (24.3 ou superior), 22 LTS (22.13 ou superior) ou 26+ instalado, use o arquivo de versões `package-lock.json` para instalar as dependências:
+Com Node.js LTS instalado:
 
 ```sh
-npm ci
-npx expo start --clear
+npm install
+npx expo start
 ```
 
-Use `--clear` no primeiro início após a atualização; nas próximas vezes, basta `npx expo start`.
-
-Instale uma versão do **Expo Go compatível com o SDK 58** pelo [site oficial](https://expo.dev/go), escaneie o QR code no celular ou pressione `w` para abrir no navegador. Se aparecer um erro de incompatibilidade, confira o SDK aceito pelo Expo Go instalado: ele deve corresponder ao SDK 58 do projeto.
+Abra pelo app **Expo Go** no celular (escaneie o QR code) ou pressione `w` para abrir no navegador.
 
 > Atenção: salve os arquivos `.json` em UTF-8 **sem BOM**. O `Set-Content`/`Out-File` do Windows PowerShell 5 adiciona um BOM, e isso quebra o `npx expo start` com o erro "Unexpected token ... is not valid JSON".
 
