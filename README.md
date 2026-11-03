@@ -1,6 +1,6 @@
 # Cálculo em Missões
 
-Esboço navegável (React Native + Expo) de um app gamificado de matemática para Introdução ao Cálculo (TADS / UDESC).
+Esboço (React Native + Expo) de um app gamificado de matemática para Introdução ao Cálculo (TADS / UDESC).
 
 ## Executar
 
